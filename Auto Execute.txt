@@ -1,0 +1,26 @@
+if game.PlaceId == 13822889 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/15670/LuaWareLT2.lua'))()
+    elseif game.PlaceId == 11257760806 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+    elseif game.PlaceId == 189707 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+    elseif game.PlaceId == 537413528 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua'))()
+    elseif game.PlaceId == 6516141723 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Loader.lua'))()
+    elseif game.PlaceId == 8982709021 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/YouTube%20Life/Auto%20Farm.lua'))()
+	  elseif game.PlaceId == 1962086868 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20of%20Hell/Script.lua'))()
+	  elseif game.PlaceId == 155615604 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua'))()
+	  elseif game.PlaceId == 4623386862 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua'))()
+  	elseif game.PlaceId == 3956818381 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Ninja%20Legends/Script.lua'))()
+  	elseif game.PlaceId == 3101667897 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua'))()
+  	elseif game.PlaceId == 606849621 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua'))()
+    else
+        print("Game is not found, sorry for the inconvenience")
