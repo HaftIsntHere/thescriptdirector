@@ -1,0 +1,38 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("The Redirector", "BloodTheme")
+ 
+-- MAIN
+local Main = Window:NewTab("Lua Ware")
+local MainSection = Main:NewSection("Lua Ware")
+MainSection:NewButton("Auto choose", "The script automatically finds your game", function()
+    if game.PlaceId == 13822889 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/15670/LuaWareLT2.lua'))()
+    elseif game.PlaceId == 11257760806 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+    elseif game.PlaceId == 189707 then
+        loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+    else
+        print("Game is not found, sorry for the inconvenience")
+    end
+end)
+MainSection:NewButton("Lumber Tycoon", "The Lumber tycoon 2 script", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/15670/LuaWareLT2.lua'))()
+end)
+MainSection:NewButton("Back alley", "The Back alley script", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+end)
+MainSection:NewButton("Natural disaster", "The Natural disaster script", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/16965/LuaWareNaturalDisasters.lua'))()
+end)
+
+MainSection:NewTextBox("Oaklands Key: ", "Insert your key to access the oaklands script, make sure the press enter after inputing.", function(key)
+    _G.scriptkey=key;
+end)
+MainSection:NewButton("Oaklands (Paid) (First input key)", "The OakLands script (PAID)", function()
+	script_key = N
+	script_key = _G.scriptkey
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2cd9768fd3d2377f2b934aba2fcf13c4.lua"))()
+end)
+
+
