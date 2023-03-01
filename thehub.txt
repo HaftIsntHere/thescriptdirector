@@ -2,7 +2,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("The Redirector", "BloodTheme")
  
--- MAIN
+-- Lua Ware
 local Main = Window:NewTab("Lua Ware")
 local MainSection = Main:NewSection("Lua Ware")
 MainSection:NewButton("Auto choose", "The script automatically finds your game", function()
@@ -35,4 +35,60 @@ MainSection:NewButton("Oaklands (Paid) (First input key)", "The OakLands script 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2cd9768fd3d2377f2b934aba2fcf13c4.lua"))()
 end)
 
+-- Vynixu
+local Vynixu = Window:NewTab("Vynixius")
+local VynixuSection = Vynixu:NewSection("Vynixius")
+VynixuSection:NewButton("Auto choose", "The script automatically finds your game", function()
+    if game.PlaceId == 537413528 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua'))()
+    elseif game.PlaceId == 6516141723 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Loader.lua'))()
+    elseif game.PlaceId == 8982709021 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/YouTube%20Life/Auto%20Farm.lua'))()
+	elseif game.PlaceId == 1962086868 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20of%20Hell/Script.lua'))()
+	elseif game.PlaceId == 155615604 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua'))()
+	elseif game.PlaceId == 4623386862 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua'))()
+	elseif game.PlaceId == 3956818381 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Ninja%20Legends/Script.lua'))()
+	elseif game.PlaceId == 3101667897 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua'))()
+	elseif game.PlaceId == 606849621 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua'))()
+    else
+        print("Game is not found, sorry for the inconvenience")
+    end
+end)
+VynixuSection:NewButton("Build A Boat", "The Build A Boat script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua'))()
+end)
+VynixuSection:NewButton("Doors", "The Doors script", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/16224/LuaWareBackAlley.lua'))()
+end)
+VynixuSection:NewButton("Youtuber Life (auto farm)", "The Youtuber Life auto farm script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/YouTube%20Life/Auto%20Farm.lua'))()
+end)
 
+VynixuSection:NewTextBox("Oaklands Key: ", "Insert your key to access the oaklands script, make sure the press enter after inputing.", function(key)
+    _G.scriptkey=key;
+end)
+VynixuSection:NewButton("Tower of Hell", "The Tower of Hell script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20of%20Hell/Script.lua'))()
+end)
+VynixuSection:NewButton("Prison Life", "The Prison Life script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua'))()
+end)
+VynixuSection:NewButton("Piggy", "The Piggy script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua'))()
+end)
+VynixuSection:NewButton("Ninja Legends", "The Ninja Legends script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Ninja%20Legends/Script.lua'))()
+end)
+VynixuSection:NewButton("Legends of Speed", "The Legends of Speed script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua'))()
+end)
+VynixuSection:NewButton("Jailbreak", "The Jailbreak script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua'))()
+end)
